@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="login.css">
+    <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<header>
+  <nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <a class="navbar-brand">Mercado Pomar</a>
+      </div>
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="index.html">Home</a></li>
+        <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Categorias<span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Alimentos</a></li>
+            <li><a href="#">Bebidas</a></li>
+            <li><a href="#">Beleza e perfumaria</a></li>
+            <li><a href="#">Limpeza</a></li>
+            <li><a href="#">Petshop</a></li>
+          </ul>
+        </li>
+        <li><a href="#central">Fale Conosco</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li style="padding-top: 10px; padding-right: 15px;">
+          <button type="button" class="btn btn-default btn-sm">
+            <span class="glyphicon glyphicon-shopping-cart"></span> Carrinho
+          </button>
+        </li>
+        <li><a href="#"><span class="glyphicon glyphicon-user"></span> Cadastrar</a></li>
+        <li><a href="login.html"><span class="glyphicon glyphicon-log-in"></span> Entrar</a></li>
+      </ul>
+    </div>
+  </nav>
+</header>
+<style>
+    input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+input[type="number"] {
+    -moz-appearance: textfield;
+}
+</style>
+  <body class="text-center" >
+    
+    <main class="form-signin">
+      <section class="card">
+      <form>
+        <img class="mb-4" src="img/logo.png" alt="" width="200" height="200" style="border-radius: 25px;">
+        <h1 class="h3 mb-3 fw-normal">Realize o cadastro</h1>
+        <label for="inputEmail" class="visually-hidden">Email</label>
+        <input type="email" id="inputEmail" class="form-control" placeholder="Digite seu email aqui" required="" autofocus="" style="width: 300px;">
+        <label for="inputPassword" class="visually-hidden">Senha</label>
+        <input type="password" id="inputPassword" class="form-control" placeholder="Digite sua senha aqui" required="" style="width: 300px;">
+        <label for="psw-repeat"><b>Repita sua senha</b></label>
+        <input type="password" class="form-control" placeholder="Repita sua senha" name="psw-repeat" required> 
+        <label for="inputAddress"><b>Endereço</b></label>
+        <input type="text" class="form-control" placeholder="Digite seu endereço" name="endereço" required>  
+        <label for="inputAddress"><b>Telefone</b></label>
+        <input type="number" class="form-control" placeholder="Digite seu número" name="telefone" required>       
+        <div class="checkbox mb-3">
+        </div>
+        <button class="w-100 btn btn-lg btn-primary" type="submit">Finalizar</button>
+      </form>
+      </section>
+    </main>
+    <br>
+    <br>
+    <br>
+    <br>
+  <script src="bootstrap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</body>
+<script src="footer.js"></script>
+</html>
